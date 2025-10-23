@@ -1,0 +1,17 @@
+name: norek_cnc_planner
+description: Norek CNC Planner - kalkulator biaya operasional mesin
+publish_to: "none"
+version: 1.0.0
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path_provider: ^2.0.11
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
